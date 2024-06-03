@@ -15,5 +15,18 @@ public class Main {
         // Display updated car details
         System.out.println("\nUpdated Car Details:");
         myCar.displayCarDetails();
-    }
+
+        Bank myBank = new Bank("SBI","Charan", "APZN", 2000);
+        myBank.displayAccountDetails();
+        myBank.deposit(200);
+        myBank.withdraw(150);
+        myBank.setBalance(2150);
+        System.out.println(myBank.getBankName());
+        myBank.displayAccountDetails();
+        Bike myBike =new Bike("TVS","Raidr 125",2013,"RED",97001);
+        myBike.displayBikeDetails();
+        myBike.updatePrice(100000);
+                }
+       
+
 }
