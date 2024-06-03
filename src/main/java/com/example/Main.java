@@ -26,6 +26,9 @@ public class Main {
         Bike myBike =new Bike("TVS","Raidr 125",2013,"RED",97001);
         myBike.displayBikeDetails();
         myBike.updatePrice(100000);
+        Student myStudent = new Student("Charan", 21, "APINDUS", "NO");
+        myStudent.displayStudentDetails();
+        myStudent.updateMajor("yes"); 
                 }
        
 
